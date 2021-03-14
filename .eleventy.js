@@ -45,8 +45,7 @@ module.exports = function (config) {
     )
 
     // Layouts
-    config.addLayoutAlias('base', 'base.njk')
-    config.addLayoutAlias('post', 'post.njk')
+    config.addLayoutAlias('base', 'layouts/base.njk')
 
     // Pass-through files
     config.addPassthroughCopy('src/robots.txt')
@@ -62,9 +61,8 @@ module.exports = function (config) {
         dir: {
             input: 'src',
             output: 'dist',
-            includes: 'includes',
-            layouts: 'layouts',
-            data: 'data'
+            includes: '_includes',
+            data: '_data'
         },
         templateFormats: ['njk', 'md', '11ty.js'],
         htmlTemplateEngine: 'njk',
