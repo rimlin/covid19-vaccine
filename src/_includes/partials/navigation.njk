@@ -17,7 +17,7 @@
 
     {# Nav Links  #}
     <ul class="nav__menu js-nav-menu" id="nav-menu">
-    {%- for item in collections.all | eleventyNavigation -%}
+    {%- for item in collections.all | eleventyNavigation | filterNavByLang(lang) -%}
         {%- if item.url -%}
             {%- set isCurrent = (item.url == page.url) -%}
             <li class="nav__item{% if isCurrent %} nav__item--active{% endif %}">
@@ -26,7 +26,7 @@
                     href="{{ item.url | url }}"
                     {% if isCurrent %}aria-current="page"{% endif %}
                 >
-                    {{ item.title }}
+                    {{ navigation[item.key] }}
                 </a>
             </li>
         {%- endif -%}
