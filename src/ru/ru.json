@@ -2,6 +2,7 @@
 	"lang": "ru",
 	"locale": "ru_RU",
 	"navigation": {
-		"sputnik_v": "Спутник V"
+		"sputnik_v": "Спутник V",
+		"pfizer": "Pfizer"
 	}
 }

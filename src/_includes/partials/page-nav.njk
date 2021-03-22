@@ -1,0 +1,9 @@
+<ul class="page-nav">
+	{%- for item in page_nav -%}
+		<li class="page-nav__item">
+			<a href="#{{ item.id }}">
+				{{ item.name }}
+			</a>
+		</li>
+	{%- endfor -%}
+</ul>

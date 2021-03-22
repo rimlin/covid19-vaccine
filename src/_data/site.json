@@ -1,8 +1,8 @@
 {
-    "title": "Eleventastic",
-    "description": "An Eleventy Starter Kit",
-    "url": "https://eleventastic.netlify.app",
-    "lang": "en",
+	"title": "Eleventastic",
+	"description": "An Eleventy Starter Kit",
+	"url": "https://eleventastic.netlify.app",
+	"lang": "en",
 	"locale": "en_us",
 	"ru": {
 		"title": "Вакцины от коронавируса",

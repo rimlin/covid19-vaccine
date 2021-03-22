@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+{% include "partials/header.njk" %}
+<div class="vaccine container">
+	<nav>
+		{% include "partials/page-nav.njk" %}
+	</nav>
+	<main class="content" tabindex="-1">
+		{{ content | safe }}
+	</main>
+</div>
+{% include "partials/footer.njk" %}

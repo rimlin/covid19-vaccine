@@ -25,9 +25,8 @@ $z-layers: (
 );
 
 // Colors
-//
-// Grayscale.
 
+// Grayscale
 $gray-darkest: #373a3c;
 $gray-dark: #55595c;
 $gray: #818a91;
@@ -40,8 +39,8 @@ $brand-red: #fc6767;
 
 // Color Mappings
 
-$bg-color: #fff;
-$text-color: $gray-darkest;
+$bg-color: #F2F2F6;
+$text-color: #21222A;
 $brand-color-primary: $brand-red;
 $brand-color-primary-offset: darken($brand-red, 6%);
 
