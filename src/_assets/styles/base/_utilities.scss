@@ -69,3 +69,54 @@
         display: none !important;
     }
 }
+
+.fullwidth {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.start-fx {
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.center-fx {
+    justify-content: center;
+    text-align: center;
+}
+
+.end-fx {
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.top-fx {
+    align-items: flex-start;
+}
+
+.middle-fx {
+    align-items: center;
+}
+
+.bottom-fx {
+    align-items: flex-end;
+}
+
+.around-fx {
+    justify-content: space-around;
+}
+
+.between-fx {
+    justify-content: space-between;
+}
+
+.pull-right {
+    margin-left: auto;
+}
+
+.pull-left {
+    margin-right: auto;
+}

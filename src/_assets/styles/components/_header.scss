@@ -1,9 +1,19 @@
 .header {
-    padding: $spacing-y 0;
+	height: $header-height;
+	background-color: #0D1931;
+	color: white;
 
     &__inner {
         display: flex;
-        justify-content: space-between;
         align-items: center;
+		height: 100%;
     }
+
+	&__left {
+		width: $left-column-width;
+	}
+
+	&__content {
+		margin-left: $layout-horizontal-gap;
+	}
 }
