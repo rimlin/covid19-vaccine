@@ -18,12 +18,20 @@ body {
 }
 
 .vaccine {
-    margin-top: 32px;
     margin-bottom: 64px;
     display: grid;
-    grid-template-columns: $left-column-width 1fr;
-    grid-column-gap: $layout-horizontal-gap;
     flex: 1;
+
+    @include mq(lg) {
+        grid-template-columns: $left-column-width 1fr;
+        grid-column-gap: $layout-horizontal-gap;
+        margin-top: 32px;
+    }
+
+    @include mq-down(lg) {
+        grid-template-rows: 48px 1fr;
+        grid-row-gap: 8px;
+    }
 
     &::after {
         content: '';
@@ -37,7 +45,19 @@ body {
     }
 
     nav {
-		position: relative;
+        @include mq(lg) {
+            position: relative;
+        }
+
+        @include mq-down(lg) {
+            position: sticky;
+            top: $header-height;
+            background-color: white;
+            margin: 0 -5.5%;
+            padding: 0 5.5%;
+            box-shadow: 0 1px 0 #ebebeb;
+            overflow: auto;
+        }
     }
 }
 

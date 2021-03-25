@@ -1,4 +1,7 @@
 .header {
+	z-index: 10;
+	position: sticky;
+	top: 0;
 	height: $header-height;
 	background-color: #0D1931;
 	color: white;
@@ -14,6 +17,6 @@
 	}
 
 	&__content {
-		margin-left: $layout-horizontal-gap;
+		//margin-left: $layout-horizontal-gap;
 	}
 }

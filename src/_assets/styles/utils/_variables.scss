@@ -8,21 +8,13 @@
 // adapting to different screen sizes, for use in media queries.
 
 $breakpoints: (
-    md: 670px,
-    lg: 940px,
+    md: 640px,
+    lg: 1024px,
     xl: 1260px
 );
 
 $container-max-width: 960px;
 
-// Z-Index Stack
-//
-// Control the order of layers in the application
-$z-layers: (
-    'modal': 999,
-    'nav': 100,
-    'content-overlay': 30
-);
 
 // Colors
 

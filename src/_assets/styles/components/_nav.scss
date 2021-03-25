@@ -4,7 +4,11 @@
         position: absolute;
         left: 0;
         right: 0;
-        background-color: #fff;
+        background-color: #0D1931;
+
+		ul {
+            display: flex;
+		}
     }
 
     &__link {
@@ -40,7 +44,12 @@
 
     @include mq-down(md) {
         &.is-open &__menu {
-            display: block;
+			display: block;
+
+			ul {
+				width: 90%;
+				margin: 0 auto;
+			}
         }
     }
 
@@ -48,8 +57,9 @@
         &__toggle {
             display: none;
         }
+
         &__menu {
-            display: flex;
+            display: block;
             position: static;
             background-color: transparent;
         }

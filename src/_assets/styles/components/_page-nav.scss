@@ -1,36 +1,63 @@
 .page-nav {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 20px;
-	margin-top: 80px;
+    @include mq(lg) {
+        position: sticky;
+        top: $header-height + 20px;
+        margin-top: 80px;
+    }
 
-	&__item {
-		& + & {
-			margin-top: 4px;
-		}
+    @include mq-down(lg) {
+        display: flex;
+		white-space: nowrap;
+		height: 100%;
+    }
 
-		a {
-			display: flex;
-			align-items: center;
-			padding: 8px 0;
+    &__item {
+		display: flex;
+		align-items: center;
 
-			color: #ABAEB4;
-			font-weight: 500;
-			text-decoration: none;
+        @include mq(lg) {
+            & + & {
+                margin-top: 4px;
+            }
+        }
 
-			&.is-active {
-				color: $text-color;
-				font-weight: bold;
-
+		@include mq-down(lg) {
+			& + & {
 				&::before {
 					display: block;
-					content: "";
+					content: '';
 					width: 16px;
-					height: 2px;
+					height: 1px;
 					margin-right: 8px;
-					background-color: $brand-blue;
-				}
+					margin-left: 8px;
+					background-color: #abaeb4;
+				}	
 			}
 		}
-	}
+
+        a {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+
+            color: #abaeb4;
+            font-weight: 500;
+            text-decoration: none;
+
+            &.is-active {
+                color: $text-color;
+
+                @include mq(lg) {
+                    &::before {
+                        display: block;
+                        content: '';
+                        width: 16px;
+                        height: 2px;
+                        margin-right: 8px;
+                        background-color: $brand-blue;
+                    }
+                }
+            }
+        }
+    }
 }
