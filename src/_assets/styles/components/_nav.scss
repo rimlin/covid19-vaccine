@@ -30,7 +30,7 @@
 		}
 
 		&--active {
-			box-shadow: inset 0px -4px 0px #3E6CE2;
+			box-shadow: inset 0px -4px 0px $brand-color-primary;
 
 			.nav__link {
 				color: #fff;

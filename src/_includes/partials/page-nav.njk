@@ -1,9 +1,9 @@
-<ul class="page-nav">
+<scrollactive class="page-nav" tag="ul" :always-track="true" :highlightFirstItem="true">
 	{%- for item in page_nav -%}
 		<li class="page-nav__item">
-			<a href="#{{ item.id }}">
+			<a class="scrollactive-item" href="#{{ item.id }}">
 				{{ item.name }}
 			</a>
 		</li>
 	{%- endfor -%}
-</ul>
+</scrollactive>

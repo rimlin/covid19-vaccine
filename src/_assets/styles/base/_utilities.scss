@@ -120,3 +120,16 @@
 .pull-left {
     margin-right: auto;
 }
+
+.highlight {
+	padding: 16px 24px;
+	border-radius: 12px;
+
+	&--blue {
+		background-color: #E8EDFB;
+	}
+
+	&--red {
+		background-color: #FBE8E8;
+	}
+}
