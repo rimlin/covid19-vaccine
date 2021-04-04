@@ -6,7 +6,7 @@
 			"destination": "/ru/sputnik-v"
 		},
 		{
-			"source": "/en/(.*)",
+			"source": "/e(.*)",
 			"destination": "/ru/sputnik-v"
 		}
 	]
