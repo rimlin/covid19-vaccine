@@ -1,0 +1,38 @@
+.vaccine {
+	ol {
+		list-style: none;
+		counter-reset: custom-counter;
+		padding-left: 50px;
+	}
+	
+	ol > li {
+		position: relative;
+		counter-increment: custom-counter;
+	}
+	
+	ol > li::before {
+		content: counter(custom-counter);
+		border-radius: 50%;
+		background-color: #E8FBEA;
+		text-align: center;
+		font-size: 1.3rem;
+		position: absolute;
+	
+		--size: 40px;
+		left: calc(-1 * var(--size) - 10px);
+		line-height: var(--size);
+		width: var(--size);
+		height: var(--size);
+		top: 0;
+	}
+	
+	
+	ul {
+		list-style: disc;
+		padding-left: 20px;
+	}
+
+	p + p {
+		margin-top: 16px;
+	}
+}

@@ -16,6 +16,12 @@
 		width: $left-column-width;
 	}
 
+	&__logo {
+		svg {
+			margin-right: 8px;
+		}
+	}
+
 	&__content {
 		//margin-left: $layout-horizontal-gap;
 	}

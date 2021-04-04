@@ -123,6 +123,7 @@
 
 .highlight {
 	padding: 16px 24px;
+    margin: 2rem 0;
 	border-radius: 12px;
 
 	&--blue {
@@ -131,5 +132,9 @@
 
 	&--red {
 		background-color: #FBE8E8;
+	}
+
+	&--green {
+		background-color: #E8FBEA;
 	}
 }

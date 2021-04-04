@@ -1,11 +1,5 @@
 {
-	"title": "Eleventastic",
-	"description": "An Eleventy Starter Kit",
-	"url": "https://eleventastic.netlify.app",
+	"url": "https://vaccine-sars.com",
 	"lang": "en",
-	"locale": "en_us",
-	"ru": {
-		"title": "Вакцины от коронавируса",
-		"description": "Описание"
-	}
+	"locale": "en_us"
 }

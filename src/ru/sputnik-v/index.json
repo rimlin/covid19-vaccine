@@ -5,8 +5,40 @@
 			"name": "Общая информация"
 		},
 		{
-			"id": "results",
-			"name": "Результаты испытаний"
+			"id": "how_it_works",
+			"name": "Принцип действия"
+		},
+		{
+			"id": "instructions",
+			"name": "Инструкция"
+		},
+		{
+			"id": "side_effects",
+			"name": "Побочные эффекты"
+		},
+		{
+			"id": "contraindications",
+			"name": "Противопоказания"
+		},
+		{
+			"id": "price",
+			"name": "Цена"
+		},
+		{
+			"id": "structure",
+			"name": "Состав"
+		},
+		{
+			"id": "how_and_where",
+			"name": "Как и где сделать вакцину"
+		},
+		{
+			"id": "efficiency",
+			"name": "Эффективность"
+		},
+		{
+			"id": "had_coronavirus",
+			"name": "Если уже переболел"
 		}
 	]
 }

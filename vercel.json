@@ -1,0 +1,13 @@
+{
+	"cleanUrls": true,
+	"redirects": [
+		{
+			"source": "/",
+			"destination": "/ru/sputnik-v"
+		},
+		{
+			"source": "/en/*",
+			"destination": "/ru/sputnik-v"
+		}
+	]
+}
