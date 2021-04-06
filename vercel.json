@@ -9,5 +9,8 @@
 			"source": "/e(.*)",
 			"destination": "/ru/sputnik-v"
 		}
+	],
+	"rewrites": [
+		{ "source": "/", "destination": "/ru" }
 	]
 }
