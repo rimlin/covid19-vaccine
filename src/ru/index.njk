@@ -1,0 +1,17 @@
+---
+metaTitle: "Вакцина Спутник V | Вакцины от Covid-19"
+metaDescription: "Информация о вакцине Спутник V"
+permalink: /{{ lang }}
+layout: main
+---
+
+<div class="articles">
+	<h1>Последние статьи</h1>
+
+	{%- for article in collections.article -%}
+		<article>
+			<a href="{{ article.url }}">{{ article.data.review.title }}</a>
+			<p>{{ article.data.review.description }}</p>
+		</article>
+	{%- endfor -%}
+</div>

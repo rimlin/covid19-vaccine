@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+{% include "partials/header.njk" %}
+<div class="main container">
+	<main class="content" tabindex="-1">
+		{{ content | safe }}
+	</main>
+</div>
+{% include "partials/footer.njk" %}

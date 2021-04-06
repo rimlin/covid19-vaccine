@@ -47,6 +47,7 @@ module.exports = function (config) {
     // Layouts
     config.addLayoutAlias('base', 'layouts/base.njk')
     config.addLayoutAlias('vaccine', 'layouts/vaccine.njk')
+    config.addLayoutAlias('main', 'layouts/main.njk')
 
     // Pass-through files
     config.addPassthroughCopy('src/robots.txt')

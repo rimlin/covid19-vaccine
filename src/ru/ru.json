@@ -4,5 +4,11 @@
 	"navigation": {
 		"sputnik_v": "Спутник V",
 		"pfizer": "Pfizer"
-	}
+	},
+	"last_articles": [
+		{
+			"title": "Вакцина \"Спутник V\"",
+			"description": "desc"
+		}
+	]
 }
