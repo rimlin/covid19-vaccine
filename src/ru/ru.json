@@ -3,12 +3,7 @@
 	"locale": "ru_RU",
 	"navigation": {
 		"sputnik_v": "Спутник V",
+		"kovivak": "КовиВак",
 		"pfizer": "Pfizer"
-	},
-	"last_articles": [
-		{
-			"title": "Вакцина \"Спутник V\"",
-			"description": "desc"
-		}
-	]
+	}
 }

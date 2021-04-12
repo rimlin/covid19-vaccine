@@ -1,0 +1,28 @@
+{
+	"page_nav": [
+		{
+			"id": "about",
+			"name": "Общая информация"
+		},
+		{
+			"id": "how_it_works",
+			"name": "Принцип действия"
+		},
+		{
+			"id": "contraindications",
+			"name": "Противопоказания"
+		},
+		{
+			"id": "safety",
+			"name": "Безопасность"
+		},
+		{
+			"id": "instructions",
+			"name": "Инструкция"
+		},
+		{
+			"id": "structure",
+			"name": "Состав"
+		}
+	]
+}
